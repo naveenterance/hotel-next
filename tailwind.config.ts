@@ -5,13 +5,26 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundColor: {
+        "sand-500": "#F9EBB2",
+        "ocean-700": "#0077CC",
+      },
+      fontFamily: {
+        Italiana: ["Libre Baskerville"],
+        Raleway: ["Raleway"],
+        Kalnia: ["Kalnia"],
+      },
+      colors: {
+        slate: {
+          900: "#0c0c04",
+        },
+        yellow: {
+          400: "#bfbf3f",
+        },
       },
     },
   },
